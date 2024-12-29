@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => {
+const AboutMe = () => {
 
     return (
-        <div className="home">
+        <div className="AboutMe">
            <h1 className="about-title">About Me</h1>
             <img className="profile-pic" src="path/to/your/photo.jpg" alt="Baileigh Remy" />
             <p className="bio">
@@ -13,4 +13,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default AboutMe;

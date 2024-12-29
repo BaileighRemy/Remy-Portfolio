@@ -23,6 +23,28 @@ const Portfolio = () => {
             githubLink: "https://github.com/BaileighRemy/survey-form.git",
             image: "path/to/image3.jpg" // Replace with actual image path
         },
+        {
+            title: "README Generator",
+            description: "Node.js application that generates a README file based on user input.",
+            deployedLink: "https://watch.screencastify.com/v/ltq9Xd92PbJeduWor50O",
+            githubLink: "https://github.com/BaileighRemy/README-Generator/tree/main/Develop",
+            image: "path/to/image3.jpg" // Replace with actual image path
+        },
+        {
+            title: "Prework Study Guide",
+            description: "Study guide for basics of HTML, CSS, Git, and Javascript.",
+            deployedLink: "https://baileighremy.github.io/prework-study-guide/",
+            githubLink: "https://github.com/BaileighRemy/prework-study-guide",
+            image: "path/to/image3.jpg" // Replace with actual image path
+        },
+        {
+            title: "Employee Tracker",
+            description: "Node.js application that tracks employees, roles, and departments.",
+            deployedLink: "https://github.com/BaileighRemy/Employee-Tracker/tree/main/02-Challenge",
+            githubLink: "https://github.com/BaileighRemy/Employee-Tracker/tree/main/02-Challenge",
+            image: "path/to/image3.jpg" // Replace with actual image path
+        },
+        
         // Add more projects as needed
     ];
 

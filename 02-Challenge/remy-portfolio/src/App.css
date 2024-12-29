@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -41,6 +41,57 @@
   color: #888;
 }
 
+/* Header.css */
+
+header {
+  background-color: #2a607c; /* Dark blue background */
+  color: white; /* White text color */
+  padding: 20px; /* Padding around header */
+  text-align: center; /* Center align text */
+  position: fixed; /* Fix header at the top */
+  width: 100vw; /* Full width */
+  left: 0;
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Larger font size for the name */
+}
+
+/* Navbar styles */
+nav {
+  background-color: #2a607c; /* Same background as header */
+  padding: 10px 0; /* Padding for navbar */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the navbar items */
+}
+
+nav ul li {
+  margin: 0 15px; /* Space between navbar items */
+}
+
+nav a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2em; /* Slightly larger font size for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #61dafb; /* Change color on hover */
+}
+
+
+
 .about-me {
   background-color: #f0f0f0; /* Light background color */
   padding: 20px; /* Add some padding */
@@ -65,7 +116,7 @@
 }
 
 .contact {
-  margin: 20px;
+  /* margin: 20px; */
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -151,10 +202,14 @@
 }
 
 footer {
-  background-color: #2a607c;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background-color: #2a607c; /* Dark blue background */
+  color: white; /* White text color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding around footer */
+  height: 80px; /* Fixed height for the footer */
+  position: relative; /* Position relative to the normal document flow */
+  bottom: 0; /* Align to the bottom */
+  width: 100%; /* Full width */
 }
 
 footer ul {
@@ -171,3 +226,4 @@ footer a {
   color: white;
   text-decoration: none;
 }
+
