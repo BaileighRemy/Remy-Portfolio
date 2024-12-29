@@ -132,8 +132,15 @@ nav a:hover {
   flex-direction: column;
 }
 
+.contact div {
+  display: flex;
+  align-items: flex-start; /* Align items to the start */
+}
+
 .contact label {
   margin-bottom: 5px;
+  margin-right: 10px; /* Space between label and textarea */
+  flex: 0 0 auto; /* Prevent the label from growing */
 }
 
 .contact input,
@@ -142,6 +149,10 @@ nav a:hover {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.contact textarea {
+  flex: 1; /* Allow the textarea to grow and take the remaining space */
 }
 
 .contact button {
@@ -170,6 +181,7 @@ nav a:hover {
 .project-list {
   display: flex;
   flex-wrap: wrap; /* Allows projects to wrap to the next line */
+  justify-content: center; /* Center the project boxes */
 }
 
 .project {
@@ -190,9 +202,19 @@ nav a:hover {
   margin: 10px 0;
 }
 
+.project-links {
+  display: flex;
+  justify-content: space-around; /* Space out the links */
+  margin-top: 10px; /* Space above the links */
+}
+
+.project-links a {
+  margin: 0; /* Remove margin since flexbox handles spacing */
+}
+
 .project a {
   display: inline-block;
-  margin: 5px 0;
+  margin: 10px 0;
   color: #333;
   text-decoration: none;
 }

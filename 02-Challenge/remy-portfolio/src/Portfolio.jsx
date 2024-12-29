@@ -64,8 +64,10 @@ const Portfolio = () => {
                         <img src={project.image} alt={project.title} />
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
+                        <div className="project-links">
                         <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">View Deployed</a>
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
                     </div>
                 ))}
             </div>
