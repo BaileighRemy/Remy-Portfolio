@@ -201,6 +201,31 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.resume {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resume h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.resume p {
+  margin-bottom: 15px;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume li {
+  margin: 5px 0;
+}
+
 footer {
   background-color: #2a607c; /* Dark blue background */
   color: white; /* White text color */
