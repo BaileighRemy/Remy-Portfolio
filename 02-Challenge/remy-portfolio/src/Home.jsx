@@ -1,9 +1,14 @@
+import React from 'react';
+
 const Home = () => {
 
     return (
         <div className="home">
-            <h2>Welcome to my portfolio!</h2>
-            <p>Click on the links above to learn more about me, view my portfolio, contact me, or view my resume.</p>
+           <h1 className="about-title">About Me</h1>
+            <img className="profile-pic" src="path/to/your/photo.jpg" alt="Baileigh Remy" />
+            <p className="bio">
+                Hello! I'm Baileigh Remy, a full stack web developer with experience in HTML, CSS, Javascript, Node.js, React and more! I love problem solving and creating dynamic websites. In my freetime I enjoy learning foreign languages, travelling, reading, playing videogames and anything outdoors. 
+            </p>
         </div>
     );
 }

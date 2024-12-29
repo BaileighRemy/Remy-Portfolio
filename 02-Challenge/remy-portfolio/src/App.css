@@ -41,6 +41,29 @@
   color: #888;
 }
 
+.about-me {
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px; /* Add some padding */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+
+.about-title {
+  font-size: 2em; /* Larger font size for the title */
+  color: #333; /* Dark text color */
+}
+
+.profile-pic {
+  width: 150px; /* Set width for the profile picture */
+  border-radius: 50%; /* Make it circular */
+  margin: 10px 0; /* Margin around the image */
+}
+
+.bio {
+  font-size: 1.2em; /* Slightly larger font for the bio */
+  color: #666; /* Grey text color */
+}
+
 .contact {
   margin: 20px;
   padding: 20px;
@@ -125,4 +148,26 @@
 
 .project a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background-color: #2a607c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
