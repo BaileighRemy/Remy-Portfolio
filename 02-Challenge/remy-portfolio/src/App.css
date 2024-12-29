@@ -1,5 +1,6 @@
 #root {
-
+  background-color: #B39C4D;
+  color: #1E2F23;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -38,14 +39,14 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #1E2F23;
 }
 
 /* Header.css */
 
 header {
-  background-color: #2a607c; /* Dark blue background */
-  color: white; /* White text color */
+  background-color: #768948; /* Dark blue background */
+  color: #1E2F23;; /* White text color */
   padding: 20px; /* Padding around header */
   text-align: center; /* Center align text */
   position: fixed; /* Fix header at the top */
@@ -62,7 +63,7 @@ h1 {
 
 /* Navbar styles */
 nav {
-  background-color: #2a607c; /* Same background as header */
+  background-color: #768948; /* Same background as header */
   padding: 10px 0; /* Padding for navbar */
 }
 
@@ -79,7 +80,7 @@ nav ul li {
 }
 
 nav a {
-  color: white; /* White text for links */
+  color: #1E2F23;; /* White text for links */
   text-decoration: none; /* Remove underline from links */
   font-size: 1.2em; /* Slightly larger font size for links */
   transition: color 0.3s; /* Smooth transition for hover effect */
@@ -87,13 +88,14 @@ nav a {
 
 nav a:hover {
   text-decoration: underline; /* Underline on hover */
-  color: #61dafb; /* Change color on hover */
+  color: #607744; /* Change color on hover */
 }
 
 
 
 .about-me {
   background-color: #f0f0f0; /* Light background color */
+  color: #1E2F23;
   padding: 20px; /* Add some padding */
   border-radius: 8px; /* Rounded corners */
   text-align: center; /* Center the text */
@@ -101,7 +103,7 @@ nav a:hover {
 
 .about-title {
   font-size: 2em; /* Larger font size for the title */
-  color: #333; /* Dark text color */
+  color: #1E2F23; /* Dark text color */
 }
 
 .profile-pic {
@@ -112,7 +114,7 @@ nav a:hover {
 
 .bio {
   font-size: 1.2em; /* Slightly larger font for the bio */
-  color: #666; /* Grey text color */
+  color: #1E2F23; /* Grey text color */
 }
 
 .contact {
@@ -120,11 +122,12 @@ nav a:hover {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #1E2F23;
 }
 
 .contact h2 {
   margin-bottom: 20px;
+  color: white;
 }
 
 .contact form {
@@ -135,12 +138,14 @@ nav a:hover {
 .contact div {
   display: flex;
   align-items: flex-start; /* Align items to the start */
+  color: white;
 }
 
 .contact label {
   margin-bottom: 5px;
   margin-right: 10px; /* Space between label and textarea */
   flex: 0 0 auto; /* Prevent the label from growing */
+  color: white;
 }
 
 .contact input,
@@ -157,7 +162,7 @@ nav a:hover {
 
 .contact button {
   padding: 10px;
-  background-color: #333;
+  background-color: #34623F;
   color: white;
   border: none;
   border-radius: 4px;
@@ -182,10 +187,13 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap; /* Allows projects to wrap to the next line */
   justify-content: center; /* Center the project boxes */
+  
 }
 
 .project {
-  border: 1px solid #ccc;
+  border: 1px solid #1E2F23;
+  color: white;
+  background-color: #1E2F23;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -200,6 +208,7 @@ nav a:hover {
 
 .project h3 {
   margin: 10px 0;
+  color: white;
 }
 
 .project-links {
@@ -215,7 +224,7 @@ nav a:hover {
 .project a {
   display: inline-block;
   margin: 10px 0;
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
@@ -225,32 +234,37 @@ nav a:hover {
 
 .resume {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #1E2F23;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white
 }
 
 .resume h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: white
 }
 
 .resume p {
   margin-bottom: 15px;
+  color: white
 }
 
 .resume ul {
   list-style-type: none;
   padding: 0;
+  color: white
 }
 
 .resume li {
   margin: 5px 0;
+  color: white
 }
 
 footer {
-  background-color: #2a607c; /* Dark blue background */
-  color: white; /* White text color */
+  background-color: #768948; /* Dark blue background */
+  color: #1E2F23;
   text-align: center; /* Center align text */
   padding: 20px; /* Padding around footer */
   height: 80px; /* Fixed height for the footer */
@@ -270,7 +284,7 @@ footer ul li {
 }
 
 footer a {
-  color: white;
+  color: #1E2F23;
   text-decoration: none;
 }
 
